@@ -50,7 +50,7 @@ func (srv *server) ServeFile(path string) http.HandlerFunc {
 	}
 }
 
-func (srv *server) logRequest(h http.HandlerFunc) http.HandlerFunc {
+func (srv *server) LogRequest(h http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		log.Printf("%s - %s %s\n", r.RemoteAddr, r.Method, r.URL)
 		h(w, r)

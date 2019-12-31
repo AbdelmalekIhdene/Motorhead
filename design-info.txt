@@ -2,9 +2,6 @@ Based on:
 https://www.youtube.com/watch?v=ScDWrogElmo
 
 [To-Do]
-- Find a hero image for every model
-- Write the specifications of every model
-- Write a server handle that can serve a whole directory at once
 
 [Colors]
 
@@ -27,8 +24,8 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 ~ "Customs are motorcycles with stylistic/structural changes to the mass-produced models offered by major manufacturers"
 * "Bobber"
 ~ "Bobbers are custom motorcycles stripped of unnecessary components"
-* "Chopper"
-~ "Choppers are custom motorcycles with wide, elevated handlebars made popular in the 1950s"
+* "V-Twin"
+~ "V-Twin engines are two-cylinder piston engines where the pistons are arranged in a V shape and share a common crankshaft"
 
 - "My Top 3 Cruisers" Title
 * "Honda Shadow Phantom"

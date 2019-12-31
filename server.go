@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
+	"path/filepath"
 	"sync"
 	"text/template"
 
@@ -44,8 +45,10 @@ func (srv *server) HandleTemplate(paths ...string) http.HandlerFunc {
 	}
 }
 
-func (srv *server) ServeFile(path string) http.HandlerFunc {
+func (srv *server) ServeDirectory(directory string) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
+		vars := mux.Vars(r)
+		path := filepath.Join(directory, vars["filename"])
 		http.ServeFile(w, r, path)
 	}
 }

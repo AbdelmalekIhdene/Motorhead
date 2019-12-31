@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
+	"path"
 	"syscall"
 	"time"
 
@@ -22,12 +23,13 @@ func run() error {
 		return err
 	}
 	log.SetOutput(&lumberjack.Logger{
-		Filename:   home + "/logs/motorhead/access.log",
+		Filename:   path.Join(home, "logs/motorhead/access.log"),
 		MaxSize:    100,
 		MaxBackups: 10,
 	})
 	srv := NewServer()
 	go func() {
+		log.Println("Starting up server...")
 		if err := srv.Server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			log.Fatal(err)
 		}
@@ -37,6 +39,7 @@ func run() error {
 	<-done
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer clean(srv, cancel)
+	log.Println("Shutting down server...")
 	return srv.Server.Shutdown(ctx)
 }
 

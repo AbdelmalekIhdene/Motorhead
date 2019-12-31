@@ -41,117 +41,130 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 - "Specifications"
 * Manufacturer (Harley-Davidson, Honda, Indian, Kawasaki, Guzzi, Suzuki, Triumph, Yamaha)
 * Curb Weight (KG)
-* Engine Type (...)
+* Engine Type (Single-Cylinder Engine, V-Twin Engine) [Not a search parameter]
 * Engine Displacement (CC)
 * Transmission Type (5-Speed, 6-Speed)
+* Retail Price ($)
 - "Review"
 * Youtube Video
 
 [Motorcycle Info]
 - 2019 Harley-Davidson Softail
-* Details:
+* Details: "A stripped-down, souped-up, bobber with a post WWII era look. It's 16 kilograms lighter, with greater lean angle, than models from just a couple of years ago"
 * Manufacturer: Harley-Davidson
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 291 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 1746 CC
+* Transmission Type: 6-Speed
+* Retail Price: 18999 $
+* Review: https://www.youtube.com/watch?v=fPG_zykKvw4
 
 - 2019 Harley-Davidson Iron 883
-* Details:
+* Details: "An original icon of the Harley-Davidson Dark Custom style. It sets the standard for the raw, stripped-down, blacked-out look with fresh new graphics"
 * Manufacturer: Harley-Davidson
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 247 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 883 CC
+* Transmission Type: 5-Speed
+* Retail Price: 11499 $
+* Review: https://www.youtube.com/watch?v=WpIo4NSzYVU
 
-- 2019 Honda Rebel
-* Details:
+- 2019 Honda Rebel 300
+* Details: "The combination of a fresh, new look with timeless features like a low seat height, light weight, narrow 286cc single-cylinder engine and user-friendly powerband"
 * Manufacturer: Honda
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 168 KG
+* Engine Type: Single-Cylinder Engine
+* Engine Displacement: 286 CC
+* Transmission Type: 6-Speed
+* Retail Price: 4499 $
+* Review: https://www.youtube.com/watch?v=Z8bVMyPA3Xk
 
 - 2019 Honda Shadow Phantom
-* Details:
+* Details: "The big brother of the Rebel range with a blacked-out 745CC V-Twin and a throaty exhaust that always announce your arrival"
 * Manufacturer: Honda
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 249 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 745 CC
+* Transmission Type: 5-Speed
+* Retail Price: 7899 $
+* Review: https://www.youtube.com/watch?v=4FbKFtOwSVk&t=30s
 
 - 2019 Indian Scout Sixty
-* Details:
+* Details: "From its light and agile feel, to its low seat height and throwback style, the Scout Sixty is easy to ride and hard not to"
 * Manufacturer: Indian
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 245 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 999 CC
+* Transmission Type: 6-Speed
+* Retail Price: 8999 $
+* Review: https://www.youtube.com/watch?v=kIL-Hrx5Shs
 
 - 2019 Kawasaki Vulcan 900 Classic
-* Details:
+* Details: "A clean and timeless design from the 1980s in a powerful and comfortable machine that captures the spirit of the American cruiser"
 * Manufacturer: Kawasaki
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 280 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 903 CC
+* Transmission Type: 5-Speed
+* Retail Price: 7999 $
+* Review: https://www.youtube.com/watch?v=AUZP-5HBeW8
 
 - 2019 Kawasaki Vulcan S
-* Details:
+* Details: "A modern take on the classic formula that delivers exhilarating sport cruiser performance for maximum enjoyment on every ride"
 * Manufacturer: Kawasaki
-* Curb Weight:
-* Engine Type:
+* Curb Weight: 225 KG
+* Engine Type: V-Twin Engine
 * Engine Displacement:
-* Transmission Type:
-* Review:
+* Transmission Type: 6-Speed
+* Retail Price: 7099 $
+* Review: https://www.youtube.com/watch?v=5v3UGuUPRFY
 
 - 2019 Moto Guzzi Roamer
-* Details:
+* Details: "Glamorous, easy, convenient and rewarding to ride, the Roamer is the Italian custom bike dedicated to the citizens of the world"
 * Manufacturer: Guzzi
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 199 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 850 CC
+* Transmission Type: 6-Speed
+* Retail Price: 11090 $
+* Review: https://www.youtube.com/watch?v=xa-3u0Qh4rA
 
 - 2019 Suzuki Boulevard S40
-* Details:
+* Details: "A timeless single cylinder design that combines exciting performance and a bold appearance with rock-solid Suzuki reliability"
 * Manufacturer: Suzuki
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 172 KG
+* Engine Type: Single-Cylinder Engine
+* Engine Displacement: 652 CC
+* Transmission Type: 5-Speed
+* Retail Price: 5799 $
+* Review: https://www.youtube.com/watch?v=ccNiOigHJ_Q
 
 - 2019 Triumph Bonneville Bobber
-* Details:
+* Details: "A design that remains true to the original’s cut-down 1950s England styling, adding other features to improve handling and overall performance"
 * Manufacturer: Triumph
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 236 KG
+* Engine Type: Parallel-Twin Engine
+* Engine Displacement: 1197 CC
+* Transmission Type: 6-Speed
+* Retail Price: 13150 $
+* Review: https://www.youtube.com/watch?v=WdvsuNQ5924
 
 - 2019 Yamaha Bolt
-* Details:
+* Details: "Powered by a V-twin engine with a plenty of technology on board, the Bolt is not too small that you’ll outgrow it soon and not so big that it is intimidating for new riders"
 * Manufacturer: Yamaha
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 248 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 942 CC
+* Transmission Type: 5-Speed
+* Retail Price: 9499 $
+* Review: https://www.youtube.com/watch?v=prrzUhe9mI8
 
 - 2019 Yamaha V-Star 250
-* Details:
+* Details: "The V-Star 250 welcomes novice riders with manageable power, a smooth-shifting 5-speed transmission, light clutch pull and a low seat height"
 * Manufacturer: Yamaha
-* Curb Weight:
-* Engine Type:
-* Engine Displacement:
-* Transmission Type:
-* Review:
+* Curb Weight: 147 KG
+* Engine Type: V-Twin Engine
+* Engine Displacement: 249 CC
+* Transmission Type: 5-Speed
+* Retail Price: 4060 $
+* Review: https://www.youtube.com/watch?v=dJcQ17eZuSE

@@ -17,8 +17,8 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 
 - Hero Image
 * "There's a Cruiser in All of Us" Title
-* "Check out my selection of the best available cruisers on the market"
-* "Selection" Link
+* "A selection of the best available cruisers on the market today ranging from beefy Harley-Davidson warhorses to swift Suzuki bobbers"
+* "Check It Out" Link
 
 - "Cruiser Lingo" Title
 * "Cruiser"
@@ -87,7 +87,7 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 * Engine Displacement: 745 CC
 * Transmission Type: 5-Speed
 * Retail Price: 7899 $
-* Review: https://www.youtube.com/watch?v=4FbKFtOwSVk&t=30s
+* Review: https://www.youtube.com/watch?v=F0ltDOqAlAM&t=1s
 
 - 2019 Indian Scout Sixty
 * Details: "From its light and agile feel, to its low seat height and throwback style, the Scout Sixty is easy to ride and hard not to"
@@ -97,7 +97,7 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 * Engine Displacement: 999 CC
 * Transmission Type: 6-Speed
 * Retail Price: 8999 $
-* Review: https://www.youtube.com/watch?v=kIL-Hrx5Shs
+* Review: https://www.youtube.com/watch?v=b9NvefV8yC8
 
 - 2019 Kawasaki Vulcan 900 Classic
 * Details: "A clean and timeless design from the 1980s in a powerful and comfortable machine that captures the spirit of the American cruiser"
@@ -107,7 +107,7 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 * Engine Displacement: 903 CC
 * Transmission Type: 5-Speed
 * Retail Price: 7999 $
-* Review: https://www.youtube.com/watch?v=AUZP-5HBeW8
+* Review: https://www.youtube.com/watch?v=CpWZziNu5YU
 
 - 2019 Kawasaki Vulcan S
 * Details: "A modern take on the classic formula that delivers exhilarating sport cruiser performance for maximum enjoyment on every ride"
@@ -137,7 +137,7 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 * Engine Displacement: 652 CC
 * Transmission Type: 5-Speed
 * Retail Price: 5799 $
-* Review: https://www.youtube.com/watch?v=ccNiOigHJ_Q
+* Review: https://www.youtube.com/watch?v=w28iZahu9WY&t=20s
 
 - 2019 Triumph Bonneville Bobber
 * Details: "A design that remains true to the original’s cut-down 1950s England styling, adding other features to improve handling and overall performance"
@@ -167,4 +167,4 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 * Engine Displacement: 249 CC
 * Transmission Type: 5-Speed
 * Retail Price: 4060 $
-* Review: https://www.youtube.com/watch?v=dJcQ17eZuSE
+* Review: https://www.youtube.com/watch?v=JhA6fkF3xF8

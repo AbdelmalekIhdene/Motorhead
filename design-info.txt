@@ -4,8 +4,12 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 [To-Do]
 
 [Colors]
+#FFED4A (Accent Yellow)
+#1f1c26 (Background)
 
 [Fonts]
+Alegreya Sans Extra-Bold 800 (Titles)
+Open Sans (Paragraphs)
 
 [Homepage]
 - Navbar

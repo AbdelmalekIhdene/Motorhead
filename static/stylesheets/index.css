@@ -1,0 +1,91 @@
+:root {
+	--color-black: #1f1c26;
+	--color-black-shadow: #120e17;
+	--color-yellow: #FFED4A;
+	--header-height: 80px;
+}
+
+header {
+	align-items: center;
+	background: var(--color-black);
+	box-shadow: 0px 1px 3px var(--color-black-shadow);
+	display: flex;
+	height: var(--header-height);
+	left: 0;
+	justify-content: space-between;
+	padding: 0 30px;
+	position: fixed;
+	right: 0;
+}
+
+header h6 {
+	color: white;
+	font-family: "Alegreya Sans";
+	font-size: 32px;
+	line-height: 34px;
+	border-bottom: 3px solid var(--color-yellow);
+	border-radius: 3px;
+}
+
+header nav {
+	display: flex;
+}
+
+header nav a {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 16px;
+	margin-right: 50px;
+}
+
+header nav a:hover {
+	color: var(--color-yellow);
+}
+
+main {
+	padding-top: var(--header-height);
+}
+
+main section.hero-image {
+	background: url(/images/hero/index.jpg) no-repeat center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 420px;
+	overflow: hidden;
+}
+
+main section.hero-image section {
+	background-color: rgba(31, 28, 38, 0.78);
+	box-shadow: 1px 1px 3px var(--color-black-shadow);
+	border-radius: 2px;
+	min-width: 300px;
+	padding: 40px;
+	text-align: center;
+	width: 35%;
+}
+
+main section.hero-image h6 {
+	color: white;
+	font-family: "Alegreya Sans";
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+main section.hero-image p {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+
+main section.hero-image a {
+	background: var(--color-yellow);
+	border-radius: 2px;
+	color: var(--color-black);
+	font-family: "Alegreya Sans";
+	font-weight: 500;
+	font-size: 16px;
+	padding: 15px 32px;
+}

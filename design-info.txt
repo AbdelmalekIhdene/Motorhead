@@ -1,0 +1,157 @@
+Based on:
+https://www.youtube.com/watch?v=ScDWrogElmo
+
+[To-Do]
+- Find a hero image for every model
+- Write the specifications of every model
+- Write a server handle that can serve a whole directory at once
+
+[Colors]
+
+[Fonts]
+
+[Homepage]
+- Navbar
+* "Motorhead" Title
+* "Home, Selection" Links
+
+- Hero Image
+* "There's a Cruiser in All of Us" Title
+* "Check out my selection of the best available cruisers on the market"
+* "Selection" Link
+
+- "Cruiser Lingo" Title
+* "Cruiser"
+~ "Cruisers are heavy, bad-ass motorcycles with low-riding positions suitable for lengthier rides"
+* "Custom"
+~ "Customs are motorcycles with stylistic/structural changes to the mass-produced models offered by major manufacturers"
+* "Bobber"
+~ "Bobbers are custom motorcycles stripped of unnecessary components"
+* "Chopper"
+~ "Choppers are custom motorcycles with wide, elevated handlebars made popular in the 1950s"
+
+- "My Top 3 Cruisers" Title
+* "Honda Shadow Phantom"
+* "Kawasaki Vulcan S"
+* "Yamaha V-Star 250"
+
+[Motorcycle Page]
+- Hero Image
+- "Details"
+- "Specifications"
+* Manufacturer (Harley-Davidson, Honda, Indian, Kawasaki, Guzzi, Suzuki, Triumph, Yamaha)
+* Curb Weight (KG)
+* Engine Type (...)
+* Engine Displacement (CC)
+* Transmission Type (5-Speed, 6-Speed)
+- "Review"
+* Youtube Video
+
+[Motorcycle Info]
+- 2019 Harley-Davidson Softail
+* Details:
+* Manufacturer: Harley-Davidson
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Harley-Davidson Iron 883
+* Details:
+* Manufacturer: Harley-Davidson
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Honda Rebel
+* Details:
+* Manufacturer: Honda
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Honda Shadow Phantom
+* Details:
+* Manufacturer: Honda
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Indian Scout Sixty
+* Details:
+* Manufacturer: Indian
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Kawasaki Vulcan 900 Classic
+* Details:
+* Manufacturer: Kawasaki
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Kawasaki Vulcan S
+* Details:
+* Manufacturer: Kawasaki
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Moto Guzzi Roamer
+* Details:
+* Manufacturer: Guzzi
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Suzuki Boulevard S40
+* Details:
+* Manufacturer: Suzuki
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Triumph Bonneville Bobber
+* Details:
+* Manufacturer: Triumph
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Yamaha Bolt
+* Details:
+* Manufacturer: Yamaha
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:
+
+- 2019 Yamaha V-Star 250
+* Details:
+* Manufacturer: Yamaha
+* Curb Weight:
+* Engine Type:
+* Engine Displacement:
+* Transmission Type:
+* Review:

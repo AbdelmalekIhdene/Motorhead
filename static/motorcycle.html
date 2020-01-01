@@ -21,8 +21,24 @@
 			</nav>
 		</header>
 		<main>
-			<section class="hero-image" >
+			<section class="hero-image"></section>
+			<p class="name">{{.Name}}</p>
+			<img src="{{.SideviewImagePath}}"></img>
+			<section class="information">
+				<section class="details">
+					<strong>Details:</strong>
+					<p>{{.Details}}</p>
+				</section>
+				<section class="specs">
+					<p><strong>Manufacturer:</strong> {{.Manufacturer}}</p>
+					<p><strong>Curb Weight:</strong> {{.CurbWeight}} KG</p>
+					<p><strong>Engine Type:</strong> {{.EngineType}}</p>
+					<p><strong>Engine Displacement:</strong> {{.EngineDisplacement}} CC</p>
+					<p><strong>Transmission Type:</strong> {{.TransmissionType}}</p>
+					<p><strong>Retail Price:</strong> {{.RetailPrice}} $</p>
+				</section>
 			</section>
+			<iframe src="{{.ReviewLink}}"></iframe>
 		</main>
 	</body>
 	<script src="/scripts/motorcycle.js"></script>

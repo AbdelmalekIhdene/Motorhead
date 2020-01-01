@@ -2,7 +2,7 @@
 	--color-black: #1f1c26;
 	--color-black-shadow: #120e17;
 	--color-yellow: #FFED4A;
-	--header-height: 80px;
+	--header-height: 60px;
 }
 
 header {
@@ -23,7 +23,7 @@ header h6 {
 	font-family: "Alegreya Sans";
 	font-size: 32px;
 	line-height: 33px;
-	border-bottom: 3px solid var(--color-yellow);
+	/* border-bottom: 3px solid var(--color-yellow); */
 	border-radius: 3px;
 }
 

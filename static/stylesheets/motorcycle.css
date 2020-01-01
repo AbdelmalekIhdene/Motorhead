@@ -2,7 +2,7 @@
 	--color-black: #1f1c26;
 	--color-black-shadow: #120e17;
 	--color-yellow: #FFED4A;
-	--header-height: 80px;
+	--header-height: 50px;
 }
 
 header {
@@ -23,7 +23,7 @@ header h6 {
 	font-family: "Alegreya Sans";
 	font-size: 32px;
 	line-height: 33px;
-	border-bottom: 3px solid var(--color-yellow);
+	/* border-bottom: 3px solid var(--color-yellow); */
 	border-radius: 3px;
 }
 
@@ -53,4 +53,50 @@ main section.hero-image {
 	justify-content: center;
 	height: 420px;
 	overflow: hidden;
+}
+
+main p.name {
+	background: var(--color-yellow);
+	color: var(--color-black);
+	text-align: center;
+	padding: 10px 0;
+	font-family: "Alegreya Sans";
+	font-size: 26px;
+}
+
+main img {
+	display: block;
+	width: 40%;
+	height: auto;
+	margin: 50px auto;
+}
+
+main section.information {
+	line-height: 35px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 50px;
+	font-family: "Open Sans";
+	font-size: 24px;
+	display: flex;
+	justify-content: space-around;
+}
+
+main section.specs {
+	flex-shrink: 0;
+	flex-grow: 0;
+	flex-basis: 400px;
+	margin-left: 50px;
+}
+
+main section.specs strong {
+	color: var(--color-black);
+}
+
+main iframe {
+	display: block;
+	width: 70%;
+	height: 40vw;
+	margin: auto;
+	margin-bottom: 50px;
 }

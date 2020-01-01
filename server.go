@@ -47,7 +47,7 @@ func NewServer() *server {
 				EngineDisplacement: 883,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        11499,
-				ReviewLink:         "https://www.youtube.com/watch?v=WpIo4NSzYVU",
+				ReviewLink:         "https://www.youtube.com/embed/WpIo4NSzYVU",
 			},
 			"2019-harley-davidson-softail": motorcycle{
 				Name:               "2019 Harley-Davidson Softail",
@@ -58,7 +58,7 @@ func NewServer() *server {
 				EngineDisplacement: 1746,
 				TransmissionType:   "6-Speed",
 				RetailPrice:        18999,
-				ReviewLink:         "https://www.youtube.com/watch?v=fPG_zykKvw4",
+				ReviewLink:         "https://www.youtube.com/embed/fPG_zykKvw4",
 			},
 			"2019-honda-rebel-300": motorcycle{
 				Name:               "2019 Honda Rebel 300",
@@ -69,7 +69,7 @@ func NewServer() *server {
 				EngineDisplacement: 286,
 				TransmissionType:   "6-Speed",
 				RetailPrice:        4499,
-				ReviewLink:         "https://www.youtube.com/watch?v=Z8bVMyPA3Xk",
+				ReviewLink:         "https://www.youtube.com/embed/Z8bVMyPA3Xk",
 			},
 			"2019-honda-shadow-phantom": motorcycle{
 				Name:               "2019 Honda Shadow Phantom",
@@ -80,7 +80,7 @@ func NewServer() *server {
 				EngineDisplacement: 745,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        7899,
-				ReviewLink:         "https://www.youtube.com/watch?v=F0ltDOqAlAM&t=1s",
+				ReviewLink:         "https://www.youtube.com/embed/F0ltDOqAlAM&t=1s",
 			},
 			"2019-indian-scout-sixty": motorcycle{
 				Name:               "2019 Indian Scout Sixty",
@@ -91,7 +91,7 @@ func NewServer() *server {
 				EngineDisplacement: 999,
 				TransmissionType:   "6-Speed",
 				RetailPrice:        8999,
-				ReviewLink:         "https://www.youtube.com/watch?v=b9NvefV8yC8",
+				ReviewLink:         "https://www.youtube.com/embed/b9NvefV8yC8",
 			},
 			"2019-kawasaki-vulcan-900-classic": motorcycle{
 				Name:               "2019 Kawasaki Vulcan 900 Classic",
@@ -102,7 +102,7 @@ func NewServer() *server {
 				EngineDisplacement: 903,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        7999,
-				ReviewLink:         "https://www.youtube.com/watch?v=CpWZziNu5YU",
+				ReviewLink:         "https://www.youtube.com/embed/CpWZziNu5YU",
 			},
 			"2019-kawasaki-vulcan-s": motorcycle{
 				Name:               "2019 Kawasaki Vulcan S",
@@ -113,7 +113,7 @@ func NewServer() *server {
 				EngineDisplacement: 649,
 				TransmissionType:   "6-Speed",
 				RetailPrice:        7099,
-				ReviewLink:         "https://www.youtube.com/watch?v=5v3UGuUPRFY",
+				ReviewLink:         "https://www.youtube.com/embed/5v3UGuUPRFY",
 			},
 			"2019-moto-guzzi-roamer": motorcycle{
 				Name:               "2019 Moto Guzzi Roamer",
@@ -124,7 +124,7 @@ func NewServer() *server {
 				EngineDisplacement: 850,
 				TransmissionType:   "6-Speed",
 				RetailPrice:        11090,
-				ReviewLink:         "https://www.youtube.com/watch?v=xa-3u0Qh4rA",
+				ReviewLink:         "https://www.youtube.com/embed/xa-3u0Qh4rA",
 			},
 			"2019-suzuki-boulevard-s40": motorcycle{
 				Name:               "2019 Suzuki Boulevard S40",
@@ -135,7 +135,7 @@ func NewServer() *server {
 				EngineDisplacement: 652,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        5799,
-				ReviewLink:         "https://www.youtube.com/watch?v=w28iZahu9WY&t=20s",
+				ReviewLink:         "https://www.youtube.com/embed/w28iZahu9WY&t=20s",
 			},
 			"2019-triumph-bonneville-bobber": motorcycle{
 				Name:               "2019 Triumph Bonneville Bobber",
@@ -146,7 +146,7 @@ func NewServer() *server {
 				EngineDisplacement: 1197,
 				TransmissionType:   "6-Speed",
 				RetailPrice:        13150,
-				ReviewLink:         "https://www.youtube.com/watch?v=WdvsuNQ5924",
+				ReviewLink:         "https://www.youtube.com/embed/WdvsuNQ5924",
 			},
 			"2019-yamaha-bolt": motorcycle{
 				Name:               "2019 Yamaha Bolt",
@@ -157,7 +157,7 @@ func NewServer() *server {
 				EngineDisplacement: 942,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        9499,
-				ReviewLink:         "https://www.youtube.com/watch?v=prrzUhe9mI8",
+				ReviewLink:         "https://www.youtube.com/embed/prrzUhe9mI8",
 			},
 			"2019-yamaha-v-star-250": motorcycle{
 				Name:               "2019 Yamaha V-Star 250",
@@ -168,7 +168,7 @@ func NewServer() *server {
 				EngineDisplacement: 249,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        4060,
-				ReviewLink:         "https://www.youtube.com/watch?v=JhA6fkF3xF8",
+				ReviewLink:         "https://www.youtube.com/embed/JhA6fkF3xF8",
 			},
 		},
 	}

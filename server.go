@@ -205,7 +205,9 @@ func (srv *server) HandleMotorcycleTemplate(paths ...string) http.HandlerFunc {
 		w.WriteHeader(http.StatusOK)
 		w.Header().Set("Content-Type", "text/html; charset=utf-8")
 		err := tpl.Execute(w, m)
-		log.Println(err)
+		if err != nil {
+			log.Println(err)
+		}
 	}
 }
 

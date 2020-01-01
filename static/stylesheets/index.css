@@ -2,13 +2,12 @@
 	--color-black: #1f1c26;
 	--color-black-shadow: #120e17;
 	--color-yellow: #FFED4A;
-	--header-height: 60px;
+	--header-height: 50px;
 }
 
 header {
 	align-items: center;
 	background: var(--color-black);
-	box-shadow: 0px 1px 3px var(--color-black-shadow);
 	display: flex;
 	height: var(--header-height);
 	left: 0;

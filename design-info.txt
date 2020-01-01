@@ -3,10 +3,8 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 
 [To-Do]
 - Replace every hero image with an appropriate image
-- Add a min-width to sideview images
 - Make sure all Youtube videos work properly
 - Add a few more lines to the details of every motorcycle
-- Make the motorcycle horizontal flex container switch based on media queries
 
 [Colors]
 #FFED4A (Accent Yellow)

@@ -2,6 +2,7 @@ Based on:
 https://www.youtube.com/watch?v=ScDWrogElmo
 
 [To-Do]
+- Dynamically set up the motorcycle.html template to load in information for the motorcycle map
 
 [Colors]
 #FFED4A (Accent Yellow)
@@ -115,7 +116,7 @@ Open Sans (Paragraphs)
 * Manufacturer: Kawasaki
 * Curb Weight: 225 KG
 * Engine Type: V-Twin Engine
-* Engine Displacement:
+* Engine Displacement: 649 CC
 * Transmission Type: 6-Speed
 * Retail Price: 7099 $
 * Review: https://www.youtube.com/watch?v=5v3UGuUPRFY

@@ -47,45 +47,10 @@ main {
 }
 
 main section.hero-image {
-	background: url(/images/hero/index.jpg) no-repeat center;
 	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 420px;
 	overflow: hidden;
-}
-
-main section.hero-image section {
-	background-color: rgba(31, 28, 38, 0.78);
-	box-shadow: 1px 1px 3px var(--color-black-shadow);
-	border-radius: 2px;
-	min-width: 300px;
-	padding: 40px;
-	text-align: center;
-	width: 35%;
-}
-
-main section.hero-image h6 {
-	color: white;
-	font-family: "Alegreya Sans";
-	font-size: 28px;
-	margin-bottom: 15px;
-}
-
-main section.hero-image p {
-	color: white;
-	font-family: "Open Sans";
-	font-size: 16px;
-	margin-bottom: 35px;
-}
-
-main section.hero-image a {
-	background: var(--color-yellow);
-	border-radius: 2px;
-	color: var(--color-black);
-	font-family: "Alegreya Sans";
-	font-weight: 500;
-	font-size: 16px;
-	padding: 15px 32px;
 }

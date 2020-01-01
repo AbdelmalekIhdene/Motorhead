@@ -4,8 +4,13 @@
 		<meta charset="utf-8">
 		<title>Motorhead</title>
 		<link rel="stylesheet" href="/stylesheets/minireset.css"></link>
-		<link rel="stylesheet" href="/stylesheets/index.css"></link>
+		<link rel="stylesheet" href="/stylesheets/motorcycle.css"></link>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:800|Open+Sans&display=swap"></link>
+		<style>
+			main section.hero-image {
+				background: url({{.HeroImagePath}}) no-repeat center;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -16,14 +21,9 @@
 			</nav>
 		</header>
 		<main>
-			<section class="hero-image">
-				<section>
-					<h6>There's a Cruiser in All of Us</h6>
-					<p>A selection of the best available cruisers on the market today ranging from beefy Harley-Davidson warhorses to swift Suzuki bobbers</p>
-					<a>Check It Out</a>
-				</section>
+			<section class="hero-image" >
 			</section>
 		</main>
 	</body>
-	<script src="/scripts/index.js"></script>
+	<script src="/scripts/motorcycle.js"></script>
 </html>

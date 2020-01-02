@@ -173,8 +173,8 @@ func NewServer() *server {
 		},
 	}
 	for key, m := range srv.motorcycles {
-		m.HeroImagePath = path.Join("images/hero", key+".jpg")
-		m.SideviewImagePath = path.Join("images/sideview", key+".jpg")
+		m.HeroImagePath = path.Join("/motorhead/images/hero", key+".jpg")
+		m.SideviewImagePath = path.Join("/motorhead/images/sideview", key+".jpg")
 		srv.motorcycles[key] = m
 	}
 	srv.Routes()

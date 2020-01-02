@@ -46,7 +46,7 @@ main {
 }
 
 main section.hero-image {
-	background: url(images/hero/index.jpg) no-repeat center;
+	background: url(/motorhead/images/hero/index.jpg) no-repeat center;
 	background-size: cover;
 	display: flex;
 	align-items: center;

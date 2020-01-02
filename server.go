@@ -235,6 +235,7 @@ func (srv *server) ServeDirectory(directory string) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		vars := mux.Vars(r)
 		path := filepath.Join(directory, vars["filename"])
+		debug.Printf("Serving file: %s\n", path)
 		http.ServeFile(w, r, path)
 	}
 }

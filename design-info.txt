@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=ScDWrogElmo
 - Replace every hero image with an appropriate image
 - Make sure all Youtube videos work properly
 - Add a few more lines to the details of every motorcycle
+- Fix the bug where ServeDirectory does not work when deployed
 
 [Colors]
 #FFED4A (Accent Yellow)

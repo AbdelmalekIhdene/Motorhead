@@ -80,7 +80,7 @@ func NewServer() *server {
 				EngineDisplacement: 745,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        7899,
-				ReviewLink:         "https://www.youtube.com/embed/F0ltDOqAlAM&t=1s",
+				ReviewLink:         "https://www.youtube.com/embed/F0ltDOqAlAM",
 			},
 			"2019-indian-scout-sixty": motorcycle{
 				Name:               "2019 Indian Scout Sixty",
@@ -135,7 +135,7 @@ func NewServer() *server {
 				EngineDisplacement: 652,
 				TransmissionType:   "5-Speed",
 				RetailPrice:        5799,
-				ReviewLink:         "https://www.youtube.com/embed/w28iZahu9WY&t=20s",
+				ReviewLink:         "https://www.youtube.com/embed/w28iZahu9WY",
 			},
 			"2019-triumph-bonneville-bobber": motorcycle{
 				Name:               "2019 Triumph Bonneville Bobber",

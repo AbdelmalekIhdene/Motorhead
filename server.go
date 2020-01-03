@@ -173,8 +173,8 @@ func NewServer() *server {
 		},
 	}
 	for key, m := range srv.motorcycles {
-		m.HeroImagePath = path.Join("/motorhead/images/hero", key+".jpg")
-		m.SideviewImagePath = path.Join("/motorhead/images/sideview", key+".jpg")
+		m.HeroImagePath = path.Join("images/hero", key+".jpg")
+		m.SideviewImagePath = path.Join("images/sideview", key+".jpg")
 		srv.motorcycles[key] = m
 	}
 	srv.Routes()
@@ -188,8 +188,8 @@ func (srv *server) HandleMotorcycleTemplate(paths ...string) http.HandlerFunc {
 		tplerr error
 	)
 	return func(w http.ResponseWriter, r *http.Request) {
-		vars := mux.Vars(r)
-		m, ok := srv.motorcycles[vars["motorcycle"]]
+		name := r.URL.Query().Get("name")
+		m, ok := srv.motorcycles[name]
 		if !ok {
 			w.WriteHeader(http.StatusNotFound)
 			fmt.Fprintln(w, "404 page not found")

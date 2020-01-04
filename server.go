@@ -13,6 +13,7 @@ import (
 )
 
 type motorcycle struct {
+	ID                 int32
 	Name               string
 	CurbWeight         int32
 	Details            string
@@ -172,10 +173,13 @@ func NewServer() *server {
 			},
 		},
 	}
+	i := int32(0)
 	for key, m := range srv.motorcycles {
+		m.ID = i
 		m.HeroImagePath = path.Join("images/hero", key+".jpg")
 		m.SideviewImagePath = path.Join("images/sideview", key+".jpg")
 		srv.motorcycles[key] = m
+		i += 1
 	}
 	srv.Routes()
 	return srv
@@ -214,6 +218,29 @@ func (srv *server) HandleMotorcycleTemplate(paths ...string) http.HandlerFunc {
 func (srv *server) HandleRedirect(url string) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, url, http.StatusMovedPermanently)
+	}
+}
+
+func (srv *server) HandleSelectionTemplate(paths ...string) http.HandlerFunc {
+	var (
+		init   sync.Once
+		tpl    *template.Template
+		tplerr error
+	)
+	return func(w http.ResponseWriter, r *http.Request) {
+		init.Do(func() {
+			tpl, tplerr = template.ParseFiles(paths...)
+		})
+		if tplerr != nil {
+			http.Error(w, tplerr.Error(), http.StatusInternalServerError)
+			return
+		}
+		w.WriteHeader(http.StatusOK)
+		w.Header().Set("Content-Type", "text/html; charset=utf-8")
+		err := tpl.Execute(w, srv.motorcycles)
+		if err != nil {
+			fmt.Fprintln(w, err)
+		}
 	}
 }
 

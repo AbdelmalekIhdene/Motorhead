@@ -13,30 +13,20 @@
 		<main id="selection"></main>
 		<script type="text/babel">
 			const motorcycles = [
+			{{range $key, $value := .}}
 				{
-					id: 				1,
-					uri:				"motorcycle?name=2019-harley-davidson-iron-883",
-					name:               "2019 Harley-Davidson Iron 883",
-					manufacturer:       "Harley-Davidson",
-					curbWeight:         247,
-					engineType:         "V-Twin Engine",
-					engineDisplacement: 883,
-					transmissionType:   "5-Speed",
-					retailPrice:        11499,
-					sideviewImagePath: 	"images/sideview/2019-harley-davidson-iron-883.jpg",
+					id: 				{{$value.ID}},
+					uri: 				"motorcycle?name={{$key}}",
+					name: 				"{{$value.Name}}",
+					manufacturer: 		"{{$value.Manufacturer}}",
+					curbWeight:			{{$value.CurbWeight}},
+					engineType:			"{{$value.EngineType}}",
+					engineDisplacement:	{{$value.EngineDisplacement}},
+					transmissionType:	"{{$value.TransmissionType}}",
+					retailPrice:		{{$value.RetailPrice}},
+					sideviewImagePath:	"{{$value.SideviewImagePath}}",
 				},
-				{
-					id:					2,
-					uri:				"motorcycle?name=2019-harley-davidson-softail",
-					name:               "2019 Harley-Davidson Softail",
-					manufacturer:       "Harley-Davidson",
-					curbWeight:         291,
-					engineType:         "V-Twin Engine",
-					engineDisplacement: 1746,
-					transmissionType:   "6-Speed",
-					retailPrice:        18999,
-					sideviewImagePath:	"images/sideview/2019-harley-davidson-softail.jpg",
-				},
+			{{end}}
 			];
 			class Selection extends React.Component {
 				constructor(props) {
@@ -72,7 +62,7 @@
 				render() {
 					return (
 						<React.Fragment>
-						<label for="manufacturer-select"><strong>Manufacturer</strong></label>
+						<label htmlFor="manufacturer-select"><strong>Manufacturer</strong></label>
 						<select value={this.state.manufacturer} onChange={this.handleManufacturer} id="manufacturer-select">
 							<option value="#">All</option>
 							<option value="Harley-Davidson">Harley-Davidson</option>
@@ -84,18 +74,18 @@
 							<option value="Triumph">Triumph</option>
 							<option value="Yamaha">Yamaha</option>
 						</select>
-						<label for="curb-weight-range"><strong>Curb Weight ({this.state.curbWeight} KG) </strong></label>
-						<input type="range" value={this.state.curbWeight} id="curb-weight-range" onChange={this.handleCurbWeight} min="0" max="300" step="3"></input>
-						<label for="transmission-type-select"><strong>Transmission Type</strong></label>
+						<label htmlFor="curb-weight-range"><strong>Curb Weight ({this.state.curbWeight} KG) </strong></label>
+						<input type="range" value={this.state.curbWeight} id="curb-weight-range" onChange={this.handleCurbWeight} min="130" max="300" step="2"></input>
+						<label htmlFor="transmission-type-select"><strong>Transmission Type</strong></label>
 						<select value={this.state.transmissionType} onChange={this.handleTransmissionType} id="transmission-type-select">
 							<option value="#">All</option>
 							<option value="5-Speed">5-Speed</option>
 							<option value="6-Speed">6-Speed</option>
 						</select>
-						<label for="engine-displacement-range"><strong>Engine Displacement ({this.state.engineDisplacement} CC)</strong></label>
+						<label htmlFor="engine-displacement-range"><strong>Engine Displacement ({this.state.engineDisplacement} CC)</strong></label>
 						<input type="range" value={this.state.engineDisplacement} id="engine-displacement-range" onChange={this.handleEngineDisplacement} min="0" max="2000" step="20"></input>
-						<label for="retail-price-range"><strong>Retail Price ({this.state.retailPrice} $)</strong></label>
-						<input type="range" value={this.state.retailPrice} id="retail-price-range" onChange={this.handleRetailPrice} min="0" max="30000" step="300"></input>
+						<label htmlFor="retail-price-range"><strong>Retail Price ({this.state.retailPrice} $)</strong></label>
+						<input type="range" value={this.state.retailPrice} id="retail-price-range" onChange={this.handleRetailPrice} min="1000" max="30000" step="300"></input>
 						{motorcycles.map(item => {
 							if (item.engineDisplacement <= this.state.engineDisplacement &&
 								item.retailPrice <= this.state.retailPrice &&
@@ -103,9 +93,11 @@
 								(this.state.transmissionType === "#" || item.transmissionType === this.state.transmissionType) &&
 								(this.state.manufacturer === "#" || item.manufacturer === this.state.manufacturer)) {
 								return (
-									<a href={item.uri}>
-										<img key={item.id} src={item.sideviewImagePath}></img>
-									</a>
+									<React.Fragment key={item.id}>
+										<a href={item.uri}>
+											<img src={item.sideviewImagePath}></img>
+										</a>
+									</React.Fragment>
 								);
 							}
 						})}

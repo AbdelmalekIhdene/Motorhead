@@ -5,6 +5,7 @@ import "github.com/gorilla/mux"
 func (srv *server) Routes() {
 	handler := mux.NewRouter()
 	handler.HandleFunc("/", srv.LogRequest(srv.HandleStaticTemplate("static/index.html"))).Methods("GET")
+	handler.HandleFunc("/home", srv.LogRequest(srv.HandleRedirect("/"))).Methods("GET")
 	handler.HandleFunc("/selection", srv.LogRequest(srv.HandleStaticTemplate("static/selection.html"))).Methods("GET")
 	handler.HandleFunc("/motorcycle", srv.LogRequest(srv.HandleMotorcycleTemplate("static/motorcycle.html"))).Methods("GET")
 	handler.HandleFunc("/scripts/{filename}", srv.LogRequest(srv.ServeDirectory("static/scripts"))).Methods("GET")

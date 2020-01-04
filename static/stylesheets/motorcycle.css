@@ -5,6 +5,10 @@
 	--header-height: 50px;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	align-items: center;
 	background: var(--color-black);

@@ -11,6 +11,69 @@
 	</head>
 	<body>
 		<main id="selection"></main>
-		<script type="text/babel" src="components/selection.js"></script>
+		<script type="text/babel">
+			class Selection extends React.Component {
+				constructor(props) {
+					super(props);
+					this.state = {
+						manufacturer: "harley-davidson",
+						curbWeight: 150,
+						transmissionType: "6-speed",
+						engineDisplacement: 10000,
+						retailPrice: 15000
+					};
+					this.handleCurbWeight = this.handleCurbWeight.bind(this);
+					this.handleEngineDisplacement = this.handleEngineDisplacement.bind(this);
+					this.handleManufacturer = this.handleManufacturer.bind(this);
+					this.handleTransmissionType = this.handleTransmissionType.bind(this);
+					this.handleRetailPrice = this.handleRetailPrice.bind(this);
+				}
+				handleCurbWeight(event) {
+					this.setState({curbWeight: event.target.value});
+				}
+				handleEngineDisplacement(event) {
+					this.setState({engineDisplacement: event.target.value});
+				}
+				handleManufacturer(event) {
+					this.setState({manufacturer: event.target.value});
+				}
+				handleTransmissionType(event) {
+					this.setState({transmissionType: event.target.value});
+				}
+				handleRetailPrice(event) {
+					this.setState({retailPrice: event.target.value});
+				}
+				render() {
+					return (
+						<React.Fragment>
+						<label for="manufacturer-select"><strong>Manufacturer</strong></label>
+						<select value={this.state.manufacturer} onChange={this.handleManufacturer} id="manufacturer-select">
+							<option value="harley-davidson">Harley-Davidson</option>
+							<option value="honda">Honda</option>
+							<option value="indian">Indian</option>
+							<option value="kawasaki">Kawasaki</option>
+							<option value="guzzi">Guzzi</option>
+							<option value="suzuki">Suzuki</option>
+							<option value="triumph">Triumph</option>
+							<option value="yamaha">Yamaha</option>
+						</select>
+						<label for="curb-weight-range"><strong>Curb Weight ({this.state.curbWeight} KG) </strong></label>
+						<input type="range" id="curb-weight-range" onChange={this.handleCurbWeight} min="0" max="300" step="3"></input>
+						<label for="transmission-type-select"><strong>Transmission Type</strong></label>
+						<select value={this.state.transmissionType} onChange={this.handleTransmissionType} id="transmission-type-select">
+							<option value="5-speed">5-Speed</option>
+							<option value="6-speed">6-Speed</option>
+						</select>
+						<label for="engine-displacement-range"><strong>Engine Displacement ({this.state.engineDisplacement} CC)</strong></label>
+						<input type="range" id="engine-displacement-range" onChange={this.handleEngineDisplacement} min="0" max="2000" step="20"></input>
+						<label for="retail-price-range"><strong>Retail Price ({this.state.retailPrice} $)</strong></label>
+						<input type="range" id="retail-price-range" onChange={this.handleRetailPrice} min="0" max="30000" step="300"></input>
+						</React.Fragment>
+					);
+				}
+			}
+			ReactDOM.render(<Selection/>,
+			document.getElementById("selection"));
+		</script>
 	</body>
 </html>

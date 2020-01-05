@@ -5,11 +5,19 @@
 		<title>Motorhead</title>
 		<link rel="stylesheet" href="stylesheets/minireset.css"></link>
 		<link rel="stylesheet" href="stylesheets/selection.css"></link>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans:800|Open+Sans&display=swap"></link>
 		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 		<script crossorigin src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 	</head>
 	<body>
+		<header>
+			<h6>Motorhead</h6>
+			<nav>
+				<a href="home">Home</a>
+				<a href="selection">Selection</a>
+			</nav>
+		</header>
 		<main id="selection"></main>
 		<script type="text/babel">
 			const motorcycles = [
@@ -62,30 +70,43 @@
 				render() {
 					return (
 						<React.Fragment>
-						<label htmlFor="manufacturer-select"><strong>Manufacturer</strong></label>
-						<select value={this.state.manufacturer} onChange={this.handleManufacturer} id="manufacturer-select">
-							<option value="#">All</option>
-							<option value="Harley-Davidson">Harley-Davidson</option>
-							<option value="Honda">Honda</option>
-							<option value="Indian">Indian</option>
-							<option value="Kawasaki">Kawasaki</option>
-							<option value="Guzzi">Guzzi</option>
-							<option value="Suzuki">Suzuki</option>
-							<option value="Triumph">Triumph</option>
-							<option value="Yamaha">Yamaha</option>
-						</select>
-						<label htmlFor="curb-weight-range"><strong>Curb Weight ({this.state.curbWeight} KG) </strong></label>
-						<input type="range" value={this.state.curbWeight} id="curb-weight-range" onChange={this.handleCurbWeight} min="130" max="300" step="2"></input>
-						<label htmlFor="transmission-type-select"><strong>Transmission Type</strong></label>
-						<select value={this.state.transmissionType} onChange={this.handleTransmissionType} id="transmission-type-select">
-							<option value="#">All</option>
-							<option value="5-Speed">5-Speed</option>
-							<option value="6-Speed">6-Speed</option>
-						</select>
-						<label htmlFor="engine-displacement-range"><strong>Engine Displacement ({this.state.engineDisplacement} CC)</strong></label>
-						<input type="range" value={this.state.engineDisplacement} id="engine-displacement-range" onChange={this.handleEngineDisplacement} min="0" max="2000" step="20"></input>
-						<label htmlFor="retail-price-range"><strong>Retail Price ({this.state.retailPrice} $)</strong></label>
-						<input type="range" value={this.state.retailPrice} id="retail-price-range" onChange={this.handleRetailPrice} min="1000" max="30000" step="300"></input>
+						<section className="filters">
+							<article>
+								<label htmlFor="manufacturer-select"><strong>Manufacturer</strong></label>
+								<select value={this.state.manufacturer} onChange={this.handleManufacturer} id="manufacturer-select">
+									<option value="#">All</option>
+									<option value="Harley-Davidson">Harley-Davidson</option>
+									<option value="Honda">Honda</option>
+									<option value="Indian">Indian</option>
+									<option value="Kawasaki">Kawasaki</option>
+									<option value="Guzzi">Guzzi</option>
+									<option value="Suzuki">Suzuki</option>
+									<option value="Triumph">Triumph</option>
+									<option value="Yamaha">Yamaha</option>
+								</select>
+							</article>
+							<article>
+								<label htmlFor="curb-weight-range"><strong>Curb Weight ({this.state.curbWeight} KG) </strong></label>
+								<input type="range" value={this.state.curbWeight} id="curb-weight-range" onChange={this.handleCurbWeight} min="130" max="300" step="2"></input>
+							</article>
+							<article>
+								<label htmlFor="transmission-type-select"><strong>Transmission Type</strong></label>
+								<select value={this.state.transmissionType} onChange={this.handleTransmissionType} id="transmission-type-select">
+									<option value="#">All</option>
+									<option value="5-Speed">5-Speed</option>
+									<option value="6-Speed">6-Speed</option>
+								</select>
+							</article>
+							<article>
+								<label htmlFor="engine-displacement-range"><strong>Engine Displacement ({this.state.engineDisplacement} CC)</strong></label>
+								<input type="range" value={this.state.engineDisplacement} id="engine-displacement-range" onChange={this.handleEngineDisplacement} min="0" max="2000" step="20"></input>
+							</article>
+							<article>
+								<label htmlFor="retail-price-range"><strong>Retail Price ({this.state.retailPrice} $)</strong></label>
+								<input type="range" value={this.state.retailPrice} id="retail-price-range" onChange={this.handleRetailPrice} min="1000" max="30000" step="300"></input>
+							</article>
+						</section>
+						<section className="images">
 						{motorcycles.map(item => {
 							if (item.engineDisplacement <= this.state.engineDisplacement &&
 								item.retailPrice <= this.state.retailPrice &&
@@ -96,11 +117,13 @@
 									<React.Fragment key={item.id}>
 										<a href={item.uri}>
 											<img src={item.sideviewImagePath}></img>
+											<h1>{item.name}</h1>
 										</a>
 									</React.Fragment>
 								);
 							}
 						})}
+						</section>
 						</React.Fragment>
 					);
 				}

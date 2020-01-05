@@ -86,7 +86,7 @@
 								</select>
 							</article>
 							<article>
-								<label htmlFor="curb-weight-range"><strong>Curb Weight ({this.state.curbWeight} KG) </strong></label>
+								<label htmlFor="curb-weight-range"><strong>Curb Weight (Up To {this.state.curbWeight} KG) </strong></label>
 								<input type="range" value={this.state.curbWeight} id="curb-weight-range" onChange={this.handleCurbWeight} min="130" max="300" step="2"></input>
 							</article>
 							<article>
@@ -98,11 +98,11 @@
 								</select>
 							</article>
 							<article>
-								<label htmlFor="engine-displacement-range"><strong>Engine Displacement ({this.state.engineDisplacement} CC)</strong></label>
+								<label htmlFor="engine-displacement-range"><strong>Engine Displacement (Up To {this.state.engineDisplacement} CC)</strong></label>
 								<input type="range" value={this.state.engineDisplacement} id="engine-displacement-range" onChange={this.handleEngineDisplacement} min="0" max="2000" step="20"></input>
 							</article>
 							<article>
-								<label htmlFor="retail-price-range"><strong>Retail Price ({this.state.retailPrice} $)</strong></label>
+								<label htmlFor="retail-price-range"><strong>Retail Price (Up To {this.state.retailPrice} $)</strong></label>
 								<input type="range" value={this.state.retailPrice} id="retail-price-range" onChange={this.handleRetailPrice} min="1000" max="30000" step="300"></input>
 							</article>
 						</section>

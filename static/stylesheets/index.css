@@ -92,3 +92,79 @@ main section.hero-image a {
 	font-size: 16px;
 	padding: 15px 32px;
 }
+
+main section.cruiser-lingo {
+	color: white;
+	background: var(--color-black);
+}
+
+main section.cruiser-lingo h1.title {
+	background: var(--color-yellow);
+	color: var(--color-black);
+	font-family: "Alegreya Sans";
+	text-align: center;
+	padding: 10px;
+}
+
+main section.cruiser-lingo section.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+main section.cruiser-lingo article {
+	flex-shrink: 0;
+	flex-basis: calc(23% - 20px);
+	padding-right: 20px;
+	flex-shrink: 0;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+main section.cruiser-lingo article h1 {
+	font-family: "Alegreya Sans";
+	padding-bottom: 5px;
+}
+
+main section.cruiser-lingo article p {
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+
+main section.showcase h1.title {
+	background: var(--color-yellow);
+	color: var(--color-black);
+	font-family: "Alegreya Sans";
+	text-align: center;
+	padding: 10px;
+}
+
+main section.showcase section.images {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin: 30px;
+}
+
+main section.showcase section.images a {
+	flex-basis: calc(33% - 10px);
+	margin-left: 10px;
+}
+
+main section.showcase section.images h1 {
+	background: var(--color-yellow);
+	color: var(--color-black);
+	font-family: "Alegreya Sans";
+	text-align: center;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+
+@media screen and (max-width: 1100px) {
+	main section.cruiser-lingo article {
+		flex-basis: calc(50% - 20px);
+		padding-right: 20px;
+	}
+}

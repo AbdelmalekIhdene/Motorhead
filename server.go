@@ -215,12 +215,6 @@ func (srv *server) HandleMotorcycleTemplate(paths ...string) http.HandlerFunc {
 	}
 }
 
-func (srv *server) HandleRedirect(url string) http.HandlerFunc {
-	return func(w http.ResponseWriter, r *http.Request) {
-		http.Redirect(w, r, url, http.StatusMovedPermanently)
-	}
-}
-
 func (srv *server) HandleSelectionTemplate(paths ...string) http.HandlerFunc {
 	var (
 		init   sync.Once
